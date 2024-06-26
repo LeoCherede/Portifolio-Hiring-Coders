@@ -41,24 +41,30 @@ ul {
     padding: 20px;
 }
 
-
 a {
     text-decoration: none;
 }
 
 body {
-    background: https://github.com/LeoCherede/Portifolio-Hiring-Coders/blob/main/tentativa.png center center fixed;
+    /* Caminho relativo para a imagem no mesmo repositório */
+    background: url('tentativa.png') center center fixed;
     background-size: cover;
-    display: flex; flex-direction: column; width: 100vw; height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
 }
 
 section {
-    height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .container {
     text-align: center;
-    /* width: 100vw; height: 800px; display: flex; flex-direction: column; align-items: center; justify-content: center; */
 }
 
 .container .name h1 {
@@ -98,4 +104,3 @@ section {
     max-width: 600px;
     margin: 0 auto;
 }
-
