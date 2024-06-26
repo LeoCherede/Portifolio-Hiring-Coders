@@ -47,7 +47,7 @@ a {
 }
 
 body {
-    background: url(https://github.com/LeoCherede/Portifolio-Hiring-Coders/blob/main/tentativa.png?raw=true) center center fixed;
+    background: https://github.com/LeoCherede/Portifolio-Hiring-Coders/blob/main/tentativa.png?raw=true center center fixed;
     background-size: cover;
     display: flex; flex-direction: column; width: 100vw; height: 100vh;
 }
